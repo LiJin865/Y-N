@@ -1,0 +1,44 @@
+style.css
+/* General styling for ALL elements with the class 'box' */
+.box {
+    /* Resizing: Width and Height */
+    width: 200px; 
+    height: 150px; 
+
+    /* Spacing */
+    padding: 20px;
+    margin: 10px; 
+    
+    /* Visuals */
+    border: 3px solid #333;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 110px; 
+    font-weight: bold;
+}
+
+/* Positioning: Use 'display: flex' on the parent container */
+.container {
+    display: flex; 
+    flex-wrap: nowrap; 
+    justify-content: center; 
+    
+    /* Visuals for the container */
+    border: 1px dashed #ccc;
+    padding: 10px;
+}
+
+/* Individual Box Resizing/Coloring */
+.box-1 {
+    width: 300px; /* Overrides the default 200px */
+    background-color: lightblue;
+}
+
+.box-2 {
+    background-color: lightgreen;
+}
+
+.box-3 {
+    height: 200px; /* Overrides the default 150px */
+    background-color: lightcoral;
+}
